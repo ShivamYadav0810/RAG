@@ -27,9 +27,10 @@ python setup_db.py
 # Run the FastAPI server
 uvicorn main:app --host 0.0.0.0 --port 8000
 
+# Navigate to the frontend folder
+cd front-end
 
 # Frontend Setup
-cd front-end
 streamlit run setup.py
 
 
