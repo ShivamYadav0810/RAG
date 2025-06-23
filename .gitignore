@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pip files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+install.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# FastAPI
+*.log
+*.sqlite3
+instance/
+*.db
+
+# Streamlit
+.streamlit/
+# Optional if you want to exclude user-specific config
+# ~/.streamlit/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Environment variables
+.env
+.env.*
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Python packaging
+*.egg
+MANIFEST
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# database
+*.db
+*.sqlite3
+
+# Logs
+*.log
