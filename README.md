@@ -27,10 +27,13 @@ python setup_db.py
 # Run the FastAPI server
 uvicorn main:app --host 0.0.0.0 --port 8000
 
-4. Frontend Setup
+
+# Frontend Setup
 cd front-end
 streamlit run setup.py
-Project Structure
+
+
+# Project Structure
 .
 ├── config.py
 ├── requirements.txt
@@ -41,10 +44,8 @@ Project Structure
     └── setup.py
 
 
-Notes
-Ensure Docker is installed and running on your system for Qdrant.
-
-Make sure ports 6333, 6334, and 8000 are free before running services.
-
-The Streamlit frontend will launch in your browser automatically after startup.
+# Notes
+1. Ensure Docker is installed and running on your system for Qdrant.
+2. Make sure ports 6333, 6334, and 8000 are free before running services.
+3. The Streamlit frontend will launch in your browser automatically after startup.
 
